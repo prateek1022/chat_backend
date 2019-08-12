@@ -41,20 +41,9 @@ socket.on('disconnect', function() {
 
         socket.broadcast.emit( "userdisconnect" ,' user has left')
 
-
-
-
     })
 
-
-
-
 })
-
-
-
-
-
 
 server.listen(3000,()=>{
 
